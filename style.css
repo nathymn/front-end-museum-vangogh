@@ -1,0 +1,380 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+
+.logo{
+    margin: 7rem 0 2rem 0;
+}
+
+.logo img{
+    width: 50%;
+}
+
+.menu{
+    padding: 1rem 0;
+}
+
+nav{
+    list-style: none;
+    text-align: center;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav ul li{
+    color: white;
+    list-style: none;
+}
+
+nav li{
+    padding: 0 1rem 0 1rem;
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    cursor: pointer;
+    color: yellow;
+    font-size: 1.2rem;
+}
+
+.m_noite {
+    width: 100%;
+}
+
+.menu_n {
+    width: 940px;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+main{
+    overflow: hidden;
+    position: relative;
+}
+
+.cont-m{
+    overflow: hidden;
+}
+  
+.noite-es {
+    opacity: 0.2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    pointer-events: none;
+}
+
+main .noite-es img{   
+        width: 100%;
+        display: block;    
+}
+
+.shadow-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow:
+        inset 0 0 100px rgba(2, 2, 39,1), /* Primeira sombra com opacidade quase máxima */
+        inset 0 0 100px rgb(2, 2, 39,1), /* Segunda sombra */
+        inset 0 0 100px rgba(2, 2, 39,1), /* Terceira sombra */
+        inset 0 0 100px rgba(2, 2, 39,1); /* Quarta sombra */
+}
+
+  
+main ul{
+    position: relative;
+}
+
+.menu_n a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu_n li img {
+    width: 50%;
+}
+
+.menu_n li{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    width: 29.5%;
+    vertical-align: middle;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.menu_n li:hover {
+	border-color: yellow;
+    color: yellow;
+    cursor: pointer;
+}
+
+.menu_n li:active {
+	border-color: #088C19;	
+}
+
+.menu_n a:hover {
+	font-size: 1rem;
+    color: yellow;
+}
+
+.menu_n h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.desc{
+    font-size: 0.5;
+}
+
+.frase{
+    text-align: center;
+    padding: 8rem 0 8rem 0;
+}
+
+.frase h2{
+    font-family: "Whisper", cursive;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+.nasc_museu{
+    text-align: left;
+    margin: 1rem 10rem 8rem;
+    text-align: justify;
+}
+
+.mapa{
+    text-align: center;
+}
+
+.loca{
+    margin: 10rem 10rem;
+    text-align: right;
+}
+
+.loca p{
+    text-align: justify;
+}
+
+.the_old img{
+    width: 100%;
+    opacity: 0.5;
+}
+
+.resumo_van{
+    margin: 5rem 10rem;
+    text-align: left;
+    display: flow-root;
+}
+
+.res_t{
+    width: 50%;
+    position: absolute;
+}
+
+.res_t{
+    text-align: justify;
+    margin-top: 5%;
+    width: 37rem;
+}
+
+.resumo_van img{
+    width: 17rem;
+    float: right;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.artes_v {
+    background-color: #90e0ef;
+}
+
+.artes_cont {
+    width: 94%;
+    margin: 0 auto;
+    color: #004aad;
+    padding: 2rem 0 3rem 0;
+}
+
+.artes_cont li{
+    list-style: none;
+}
+
+.conteudoPrincipal-artes {
+    margin: 0 0 2rem 4.5rem;
+    list-style: none;
+}
+
+.artes-cont ul::marker {
+    display: none;
+}
+
+.conteudoPrincipal-artes-link img {
+    padding: 1.5rem 1rem 1rem 1rem;
+}
+
+.conteudoPrincipal-artes{
+    display: inline-flex;
+}
+
+.conteudoPrincipal-artes p{
+    color: black;
+    font-weight: bold;
+    width: 15rem;
+    padding: 0.7rem 0 0.3rem 0;
+}
+
+.conteudoPrincipal-artes-link {
+    background-color:  white;
+    border-radius: 35px;
+    text-align: center;
+    margin: 1%;
+    position: relative;
+    width: 48%;
+}
+
+.conteudoPrincipal-artes-link a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.conteudoPrincipal-artes-link:hover {
+    box-shadow: 4px 4px 4px #CCC;
+}
+
+.sobre_m{
+    margin: 5rem 10rem 10rem 10rem ;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 2rem 0;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover{
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.copy{
+    font-size: 0.7rem;
+    padding-top: 2rem;
+}
+
+.cont-a{
+    background-image: url(./img/noite_es.jpeg);
+    padding: 3rem 0;
+    background-color: rgba(2, 2, 39,0.9); /* Cor de fundo semi-transparente */
+    background-blend-mode: multiply; 
+    box-shadow:
+        inset 0 0 100px rgb(2, 2, 39), /* Primeira sombra com opacidade quase máxima */
+        inset 0 0 100px rgb(2, 2, 39), /* Segunda sombra */
+        inset 0 0 100px rgb(2, 2, 39), /* Terceira sombra */
+        inset 0 0 100px rgb(2, 2, 39); /* Quarta sombra */
+}
+
+.cont-a li{
+    background-color:  rgb(2, 2, 39);
+    border-radius: 35px;
+    text-align: center;
+    position: relative;
+    width: 420px;
+}
+
+.cont-a li:not(:first-child){
+    margin: 0 0 0 3%;
+}
+
+.conteudo-artes{
+    margin: 0 0 2rem 0;
+    list-style: none;
+    display: inline-flex;
+    padding: 1%;
+}
+
+.conteudo-artes-link img {
+    padding: 2.5rem 1rem 1rem 1rem;
+    width: 70%;
+}
+
+.conteudo-artes p{
+    color: white;
+    font-weight: bold;
+    width: 24rem;
+    padding: 0 0 0.3rem 0;
+}
+
+.cont-mu .sobre_m{
+    margin: 9rem 10rem 9rem 10rem;
+}
+
+.cont-mu .nasc_museu{
+    margin: 9rem 10rem 9rem 10rem;
+}
+
+.cont_b .resumo_van{
+    margin: 0 10rem 10rem 10rem;
+}
+
+.cont_b .res_t{
+    text-align: center;
+    margin-top: 1%;
+    width: 37rem;
+}
+
+.cont_b h2{
+    font-size: 3.5rem;
+    font-family: "Whisper", cursive;
+    letter-spacing: 0.1rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.cont_b h3{
+    margin: 0 0 2rem 0;
+}
+
+.cont_b .nasc_museu{
+    margin: 5rem 10rem 10rem 10rem;
+}
+
+.cont_c .loca{
+    margin: 5rem 10rem 10rem 10rem;
+}
